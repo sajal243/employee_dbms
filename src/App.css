@@ -1,0 +1,94 @@
+.root{
+  text-align: center;
+  position: relative;
+}
+
+.add_new{
+  width: 100%;
+  display: flex;
+  justify-content: right;
+}
+.add_btn{
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.dashboard{
+  display: flex;
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.employee_list{
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-right: 1px solid black;
+  padding-right: 20px;
+}
+
+.employee_div{
+  border: 1px solid grey;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 10px;
+}
+
+.employee_details{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.info{
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.add_employee{
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 20px;
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  background-color: whitesmoke;
+}
+
+.row{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+input{
+  padding: 8px 10px;
+  width: 100%;
+}
+
+.delete_btn{
+  background: red;
+  cursor: pointer;
+}
+
+.close_btn{
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  background: red;
+  cursor: pointer;
+}
+
+.selected{
+  background-color: #ddedf3;
+}
